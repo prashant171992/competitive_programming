@@ -1,0 +1,35 @@
+
+>squid:S1659"$Declare "ptrbuf" on a separate line.(®¨·¹ûÿÿÿÿ
+Jsquid:UnusedPrivateMethod"'Remove this unused private "nl" method.(©œÍ
+9squid:S1659"Declare "p" on a separate line.(æïˆºıÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(öï•™
+Nsquid:UnusedPrivateMethod"+Remove this unused private "modulo" method.(ğÿÆí
+ƒ"squid:ClassVariableVisibilityCheck"RMake lenbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"RMake ptrbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ
+fsquid:S00116"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àßïŒ
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯¢İÿÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(õÿÌÿ
+Jsquid:S1854"5Remove this useless assignment to local variable "s".(Â¬°
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÅÑ­¹
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(£Üıÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜Ş§
+Osquid:UnusedPrivateMethod"'Remove this unused private "tr" method.(Ô“ƒùüÿÿÿÿ
+ %squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¯¢İÿÿÿÿÿ
+Jsquid:UnusedPrivateMethod"'Remove this unused private "nm" method.(½”İĞ
+;squid:S1481"&Remove this unused "s" local variable.(Â¬°
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÃâÅ¹üÿÿÿÿ
+4squid:S1659"Declare "b" on a separate line.(—ÔÀ
+hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ú¿Á®ÿÿÿÿÿ
+Zsquid:UnusedPrivateMethod"2Remove this unused private "nsTillNewLine" method.(–¼´‡úÿÿÿÿ
+Psquid:UnusedPrivateMethod"(Remove this unused private "nsF" method.(õ…˜Ïşÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(­ÕÓ„ıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘¼êøÿÿÿÿ
+Osquid:UnusedPrivateMethod"'Remove this unused private "nd" method.(£ÖÚ‡úÿÿÿÿ
+Jsquid:UnusedPrivateMethod"'Remove this unused private "nc" method.(è…è
+Jsquid:UnusedPrivateMethod"'Remove this unused private "na" method.(áóô•
+csquid:S2184"BCast one of the operands of this division operation to a "double".(ÓšäÎşÿÿÿÿ8ç›ó,
+fsquid:S2184"ECast one of the operands of this subtraction operation to a "double".(ÓšäÎşÿÿÿÿ8ç›ó,
+csquid:S2184"BCast one of the operands of this division operation to a "double".(ÓšäÎşÿÿÿÿ8ç›ó,
+esquid:S3358"DExtract this nested ternary operation into an independent statement.(ÓšäÎşÿÿÿÿ8ç›ó,

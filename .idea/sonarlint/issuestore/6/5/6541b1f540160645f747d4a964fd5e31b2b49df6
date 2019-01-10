@@ -1,0 +1,11 @@
+
+Gsquid:S1172"&Remove these unused method parameters.(½§ÿ¢ıÿÿÿÿ8ùÁÙâ,
+[squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8®ò‹‰Ú,
+@squid:S1659"Declare "j" on a separate line.(¥Ä‡–úÿÿÿÿ8Íà¤ÃÚ,
+Psquid:S1066"/Merge this if statement with the enclosing one.(Ã¹ˆùÿÿÿÿ8Íà¤ÃÚ,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿®¸R8Íà¤ÃÚ,
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô¡Ûöıÿÿÿÿ8Íà¤ÃÚ,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†øú8ÇÎ’ñÓ,
+Ysquid:S1197"8Move the array designator from the variable to the type.(ÓŒ•‡úÿÿÿÿ8Íà¤ÃÚ,
+ssquid:S3973"WUse curly braces or indentation to denote the code conditionally executed by this "if".(¤ÌÿË8Íà¤ÃÚ,

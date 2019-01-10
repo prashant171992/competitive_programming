@@ -1,0 +1,34 @@
+
+Dsquid:S1481c"&Remove this unused "s" local variable.(Β¬°8λόβ…-
+"squid:ClassVariableVisibilityChecko"RMake ptrbuf a static final constant or non-public and provide accessors if needed.(®¨·Ήϋÿÿÿÿ8λόβ…-
+Wsquid:UnusedPrivateMethodR"+Remove this unused private "modulo" method.(πÿΖν8λόβ…-
+Tsquid:UnusedPrivateMethod½"'Remove this unused private "nm" method.(½”έΠ8λόβ…-
+[squid:S1197"8Move the array designator from the variable to the type.(κο½ϋÿÿÿÿ8λόβ…-
+"squid:ClassVariableVisibilityChecko"RMake lenbuf a static final constant or non-public and provide accessors if needed.(®¨·Ήϋÿÿÿÿ8λόβ…-
+osquid:S00116"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΰίο8λόβ…-
+Vsquid:S1197"8Move the array designator from the variable to the type.(φο•™8λόβ…-
+Gsquid:S1659o"$Declare "ptrbuf" on a separate line.(®¨·Ήϋÿÿÿÿ8λόβ…-
+nsquid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(­ΥΣ„ύÿÿÿÿ8λόβ…-
+Ysquid:UnusedPrivateMethod"'Remove this unused private "nd" method.(£ΦΪ‡ϊÿÿÿÿ8λόβ…-
+Tsquid:UnusedPrivateMethod‘"'Remove this unused private "nc" method.(θ…θ8λόβ…-
+>squid:S1659Κ"Declare "b" on a separate line.(—Τΐ8λόβ…-
+qsquid:S00101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…ÿΌϊÿÿÿÿ8λόβ…-
+©%squid:RedundantThrowsDeclarationCheckZ"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(―Άέÿÿÿÿÿ8λόβ…-
+isquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(ΕΡ­Ή8λόβ…-
+Zsquid:UnusedPrivateMethod©"(Remove this unused private "nsF" method.(υ…Οώÿÿÿÿ8λόβ…-
+Csquid:S1659µ"Declare "p" on a separate line.(ζοΊύÿÿÿÿ8λόβ…-
+jsquid:S00112Z"FDefine and throw a dedicated exception instead of using a generic one.(―Άέÿÿÿÿÿ8λόβ…-
+Ssquid:S1854c"5Remove this useless assignment to local variable "s".(Β¬°8λόβ…-
+dsquid:UnusedPrivateMethod"2Remove this unused private "nsTillNewLine" method.(–Ό΄‡ϊÿÿÿÿ8λόβ…-
+Tsquid:UnusedPrivateMethodά"'Remove this unused private "nl" method.(©Ν8λόβ…-
+Ysquid:UnusedPrivateMethodς"'Remove this unused private "tr" method.(Τ“ƒωόÿÿÿÿ8λόβ…-
+nsquid:CommentedOutCodeLinea"<This block of commented-out lines of code should be removed.(ΓβΕΉόÿÿÿÿ8λόβ…-
+\
+squid:S106σ"9Replace this use of System.out or System.err by a logger.(‘Όκψÿÿÿÿ8λόβ…-
+Vsquid:S1197"8Move the array designator from the variable to the type.(υÿΜÿ8λόβ…-
+Tsquid:UnusedPrivateMethodΓ"'Remove this unused private "na" method.(αστ•8λόβ…-
+isquid:CommentedOutCodeLineg"<This block of commented-out lines of code should be removed.(ή§8λόβ…-
+[
+squid:S106_"9Replace this use of System.out or System.err by a logger.(£άύÿÿÿÿ8λόβ…-
+[squid:S1197"8Move the array designator from the variable to the type.(ΟςΟ―ϋÿÿÿÿ8λόβ…-

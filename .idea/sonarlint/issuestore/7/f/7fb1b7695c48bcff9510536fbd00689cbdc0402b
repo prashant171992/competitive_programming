@@ -1,0 +1,11 @@
+
+Ž squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(äš¼Ôýÿÿÿÿ8ÇÎ’ñÓ,
+Ž squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(ªãÏÌþÿÿÿÿ8ÇÎ’ñÓ,
+Ž squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Á½±¹ûÿÿÿÿ8ÇÎ’ñÓ,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(è‹€B8ÇÎ’ñÓ,
+8squid:S1220""Move this file to a named package.8ÇÎ’ñÓ,
+Fsquid:S1481"*Remove this unused "count" local variable.(æÕ¿¼8ÇÎ’ñÓ,
+Hsquid:S1481"'Remove this unused "bF" local variable.(Áêºîþÿÿÿÿ8ÇÎ’ñÓ,
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸óóô8ÇÎ’ñÓ,
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸óóô8ÇÎ’ñÓ,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ëÞ„ýÿÿÿÿ8ÇÎ’ñÓ,

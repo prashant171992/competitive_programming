@@ -1,0 +1,31 @@
+
+Usquid:UnusedPrivateMethod"+Remove this unused private "modulo" method.(ðÿÆí8§åˆ®ÿ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘¼êŽøÿÿÿÿ8§åˆ®ÿ,
+Š"squid:ClassVariableVisibilityCheck"RMake ptrbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ8§åˆ®ÿ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(­ÕÓ„ýÿÿÿÿ8§åˆ®ÿ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜Þ§8§åˆ®ÿ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÅÑ­¹8§åˆ®ÿ,
+Wsquid:UnusedPrivateMethod"(Remove this unused private "nsF" method.(õ…˜Ïþÿÿÿÿ8§åˆ®ÿ,
+Š"squid:ClassVariableVisibilityCheck"RMake lenbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ8§åˆ®ÿ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "nl" method.(©œÍž8§åˆ®ÿ,
+msquid:S00116"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àßïŒ8§åˆ®ÿ,
+Bsquid:S1481"&Remove this unused "s" local variable.(Â¬°8§åˆ®ÿ,
+Esquid:S1659"$Declare "ptrbuf" on a separate line.(®¨·¹ûÿÿÿÿ8§åˆ®ÿ,
+Vsquid:UnusedPrivateMethod"'Remove this unused private "tr" method.(Ô“ƒùüÿÿÿÿ8§åˆ®ÿ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "nc" method.(è…è8§åˆ®ÿ,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(£ÜŽýÿÿÿÿ8§åˆ®ÿ,
+@squid:S1659"Declare "p" on a separate line.(æïˆºýÿÿÿÿ8§åˆ®ÿ,
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯¢Ýÿÿÿÿÿ8§åˆ®ÿ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "nm" method.(½”ÝÐ8§åˆ®ÿ,
+asquid:UnusedPrivateMethod"2Remove this unused private "nsTillNewLine" method.(–¼´‡úÿÿÿÿ8§åˆ®ÿ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÃâÅ¹üÿÿÿÿ8§åˆ®ÿ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "na" method.(áóô•8§åˆ®ÿ,
+osquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(££óåøÿÿÿÿ8§åˆ®ÿ,
+Tsquid:S1197"8Move the array designator from the variable to the type.(öï•™8§åˆ®ÿ,
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¯¢Ýÿÿÿÿÿ8§åˆ®ÿ,
+Qsquid:S1854"5Remove this useless assignment to local variable "s".(Â¬°8§åˆ®ÿ,
+Tsquid:S1197"8Move the array designator from the variable to the type.(õÿÌÿ8§åˆ®ÿ,
+;squid:S1659"Declare "b" on a separate line.(Ž—ÔÀ8§åˆ®ÿ,
+Vsquid:UnusedPrivateMethod"'Remove this unused private "nd" method.(£ÖÚ‡úÿÿÿÿ8§åˆ®ÿ,

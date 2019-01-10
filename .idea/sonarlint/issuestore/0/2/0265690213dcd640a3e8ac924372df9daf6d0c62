@@ -1,0 +1,33 @@
+
+Usquid:UnusedPrivateMethod"+Remove this unused private "modulo" method.(ðÿÆí8¼¦†‡õ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(­ÕÓ„ýÿÿÿÿ8¼¦†‡õ,
+Š"squid:ClassVariableVisibilityCheck"RMake lenbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ8¼¦†‡õ,
+csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ª–üŽ
+;squid:S1659"Declare "b" on a separate line.(Ž—ÔÀ8¼¦†‡õ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜Þ§8¼¦†‡õ,
+Esquid:S1659"$Declare "ptrbuf" on a separate line.(®¨·¹ûÿÿÿÿ8¼¦†‡õ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "nl" method.(©œÍž8¼¦†‡õ,
+Qsquid:S1854"5Remove this useless assignment to local variable "s".(Â¬°8¼¦†‡õ,
+fsquid:S00116"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àßïŒ
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(£ÜŽýÿÿÿÿ8¼¦†‡õ,
+Ssquid:S1197"8Move the array designator from the variable to the type.(÷®Ô8ì×‹’õ,
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¯¢Ýÿÿÿÿÿ8¼¦†‡õ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÅÑ­¹8¼¦†‡õ,
+asquid:UnusedPrivateMethod"2Remove this unused private "nsTillNewLine" method.(–¼´‡úÿÿÿÿ8¼¦†‡õ,
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯¢Ýÿÿÿÿÿ8¼¦†‡õ,
+Tsquid:S1197"8Move the array designator from the variable to the type.(ÁÃ¯“8ì×‹’õ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÃâÅ¹üÿÿÿÿ8¼¦†‡õ,
+Msquid:S1197"8Move the array designator from the variable to the type.(öï•™
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘¼êŽøÿÿÿÿ8¼¦†‡õ,
+Msquid:S1197"8Move the array designator from the variable to the type.(õÿÌÿ
+Vsquid:UnusedPrivateMethod"'Remove this unused private "tr" method.(Ô“ƒùüÿÿÿÿ8¼¦†‡õ,
+Bsquid:S1481"&Remove this unused "s" local variable.(Â¬°8¼¦†‡õ,
+@squid:S1659"Declare "p" on a separate line.(æïˆºýÿÿÿÿ8¼¦†‡õ,
+Š"squid:ClassVariableVisibilityCheck"RMake ptrbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ8¼¦†‡õ,
+Wsquid:UnusedPrivateMethod"(Remove this unused private "nsF" method.(õ…˜Ïþÿÿÿÿ8¼¦†‡õ,
+Vsquid:UnusedPrivateMethod"'Remove this unused private "nd" method.(£ÖÚ‡úÿÿÿÿ8¼¦†‡õ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "nc" method.(è…è8¼¦†‡õ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "nm" method.(½”ÝÐ8¼¦†‡õ,
+Qsquid:UnusedPrivateMethod"'Remove this unused private "na" method.(áóô•8¼¦†‡õ,

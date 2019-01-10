@@ -1,0 +1,35 @@
+
+Bsquid:S1659o"Declare "p" on a separate line.(æïˆºıÿÿÿÿ8ÚŸÒÌç,
+Xsquid:UnusedPrivateMethodM"'Remove this unused private "nc" method.(Ïğİ ÿÿÿÿÿ8ÚŸÒÌç,
+isquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(ÅÑ­¹8ÚŸÒÌç,
+csquid:UnusedPrivateMethodY"2Remove this unused private "nsTillNewLine" method.(–¼´‡úÿÿÿÿ8ÚŸÒÌç,
+Tsquid:UnusedPrivateMethod–"'Remove this unused private "nl" method.(©œÍ8ÚŸÒÌç,
+>squid:S1659„"Declare "b" on a separate line.(—ÔÀ8ÚŸÒÌç,
+Œ"squid:ClassVariableVisibilityCheck<"RMake ptrbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ8ÚŸÒÌç,
+©%squid:RedundantThrowsDeclarationCheck'"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¯¢İÿÿÿÿÿ8ÚŸÒÌç,
+isquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(˜Ş§8ÚŸÒÌç,
+jsquid:S00112'"FDefine and throw a dedicated exception instead of using a generic one.(¯¢İÿÿÿÿÿ8ÚŸÒÌç,
+Gsquid:S1659<"$Declare "ptrbuf" on a separate line.(®¨·¹ûÿÿÿÿ8ÚŸÒÌç,
+”squid:S2681I"qThis statement will not be executed in a loop; only the first statement will be. The rest will execute only once.(İ¨‚ûÿÿÿÿ8ÚŸÒÌç,
+vsquid:UselessImportCheck"FRemove this unused import 'java.util.concurrent.atomic.AtomicInteger'.(¿êäœøÿÿÿÿ8ÚŸÒÌç,
+nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(ÃâÅ¹üÿÿÿÿ8ÚŸÒÌç,
+gsquid:UselessImportCheck"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8ÚŸÒÌç,
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(£Üıÿÿÿÿ8ÚŸÒÌç,
+nsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(­ÕÓ„ıÿÿÿÿ8ÚŸÒÌç,
+Ssquid:UnusedPrivateMethod}"'Remove this unused private "na" method.(áóô•8ÚŸÒÌç,
+Ysquid:UnusedPrivateMethodc"(Remove this unused private "nsF" method.(õ…˜Ïşÿÿÿÿ8ÚŸÒÌç,
+V
+squid:S106«"9Replace this use of System.out or System.err by a logger.(“¬¤d8ÚŸÒÌç,
+Ssquid:UnusedPrivateMethod«"'Remove this unused private "tr" method.(“¬¤d8ÚŸÒÌç,
+Dsquid:S14810"&Remove this unused "s" local variable.(Â¬°8ÚŸÒÌç,
+Ssquid:S18540"5Remove this useless assignment to local variable "s".(Â¬°8ÚŸÒÌç,
+Xsquid:UnusedPrivateMethodL"'Remove this unused private "nd" method.(äÑ—Çüÿÿÿÿ8ÚŸÒÌç,
+Vsquid:S1197"8Move the array designator from the variable to the type.(öï•™8ÚŸÒÌç,
+Wsquid:UnusedPrivateMethod"+Remove this unused private "modulo" method.(ğÿÆí8ÚŸÒÌç,
+Œ"squid:ClassVariableVisibilityCheck<"RMake lenbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ8ÚŸÒÌç,
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æ„şƒüÿÿÿÿ8ä²æÌç,
+osquid:S00116"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àßïŒ8ÚŸÒÌç,
+Ssquid:UnusedPrivateMethodw"'Remove this unused private "nm" method.(½”İĞ8ÚŸÒÌç,
+Vsquid:S1197"8Move the array designator from the variable to the type.(õÿÌÿ8ÚŸÒÌç,
+Isquid:UselessImportCheck	"Remove this duplicated import.(»Çâ€8ÚŸÒÌç,

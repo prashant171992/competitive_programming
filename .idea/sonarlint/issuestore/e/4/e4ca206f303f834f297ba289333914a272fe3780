@@ -1,0 +1,15 @@
+
+Esquid:S1481")Remove this unused "temp" local variable.(®Àô©8«ªà¸Í,
+Isquid:S1481"(Remove this unused "ans" local variable.(‹Æá§ùÿÿÿÿ8«ªà¸Í,
+0squid:S1700"Rename field "reader"(ã·îl8«ªà¸Í,
+Vsquid:S1854"5Remove this useless assignment to local variable "n".(ÞÔÍßøÿÿÿÿ8«ªà¸Í,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8«ªà¸Í,
+[squid:S1118":Add a private constructor to hide the implicit public one.(ÿ°˜ªùÿÿÿÿ8«ªà¸Í,
+8squid:S1220""Move this file to a named package.8«ªà¸Í,
+Gsquid:S1481"&Remove this unused "n" local variable.(ÞÔÍßøÿÿÿÿ8«ªà¸Í,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(£‚ÚÜýÿÿÿÿ8«ªà¸Í,
+Tsquid:S1854"8Remove this useless assignment to local variable "temp".(®Àô©8«ªà¸Í,
+^squid:UnusedPrivateMethod"/Remove this unused private "arrayToInt" method.(–ŠÕÇùÿÿÿÿ8«ªà¸Í,
+]squid:UnusedPrivateMethod"3Remove this unused private "Fibonacci" constructor.(µ™€º8«ªà¸Í,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(·§Œ‚8«ªà¸Í,

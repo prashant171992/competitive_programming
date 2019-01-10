@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/*TCO19* Single Round Match 736/*TCO19* Single Round Match 736.iml" filepath="$PROJECT_DIR$/*TCO19* Single Round Match 736/*TCO19* Single Round Match 736.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2018 TCO Algorithm/2018 TCO Algorithm.iml" filepath="$PROJECT_DIR$/2018 TCO Algorithm/2018 TCO Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayTricks/ArrayTricks.iml" filepath="$PROJECT_DIR$/ArrayTricks/ArrayTricks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BitTricks/BitTricks.iml" filepath="$PROJECT_DIR$/BitTricks/BitTricks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeJam_2017.iml" filepath="$PROJECT_DIR$/CodeJam_2017.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicProgrammingPractice/DynamicProgrammingPractice.iml" filepath="$PROJECT_DIR$/DynamicProgrammingPractice/DynamicProgrammingPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphTricks/GraphTricks.iml" filepath="$PROJECT_DIR$/GraphTricks/GraphTricks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediumLeetCode/MediumLeetCode.iml" filepath="$PROJECT_DIR$/MediumLeetCode/MediumLeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SRM 736 DIV 2/SRM 736 DIV 2.iml" filepath="$PROJECT_DIR$/SRM 736 DIV 2/SRM 736 DIV 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCO 2017 Round 3A DIV 1/TCO 2017 Round 3A DIV 1.iml" filepath="$PROJECT_DIR$/TCO 2017 Round 3A DIV 1/TCO 2017 Round 3A DIV 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCO 2018 Round 2B DIV 1/TCO 2018 Round 2B DIV 1.iml" filepath="$PROJECT_DIR$/TCO 2018 Round 2B DIV 1/TCO 2018 Round 2B DIV 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCO19 Single Round Match 740/TCO19 Single Round Match 740.iml" filepath="$PROJECT_DIR$/TCO19 Single Round Match 740/TCO19 Single Round Match 740.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testing/Testing.iml" filepath="$PROJECT_DIR$/Testing/Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToughProblemPractice/ToughProblemPractice.iml" filepath="$PROJECT_DIR$/ToughProblemPractice/ToughProblemPractice.iml" />
+    </modules>
+  </component>
+</project>

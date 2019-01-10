@@ -1,0 +1,35 @@
+
+…"squid:ClassVariableVisibilityCheckL"RMake ptrbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ
+bsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(˜Þ§
+Ssquid:UnusedPrivateMethod†"(Remove this unused private "nsF" method.(õ…˜Ïþÿÿÿÿ
+Msquid:UnusedPrivateMethod "'Remove this unused private "na" method.(áóô•
+gsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(­ÕÓ„ýÿÿÿÿ
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(àÒúâùÿÿÿÿ8æÈ˜ô,
+Osquid:S1197"8Move the array designator from the variable to the type.(öï•™
+bsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ÅÑ­¹
+…"squid:ClassVariableVisibilityCheckL"RMake lenbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ
+esquid:S00101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(çðÿ¯
+Psquid:UnusedPrivateMethod/"+Remove this unused private "modulo" method.(ðÿÆí
+Msquid:UnusedPrivateMethod¹"'Remove this unused private "nl" method.(©œÍž
+T
+squid:S106<"9Replace this use of System.out or System.err by a logger.(£ÜŽýÿÿÿÿ
+Lsquid:UnusedPrivateMethodn"'Remove this unused private "nc" method.(è…è
+gsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(ÃâÅ¹üÿÿÿÿ
+\squid:UnusedPrivateMethod|"2Remove this unused private "nsTillNewLine" method.(–¼´‡úÿÿÿÿ
+@squid:S1659L"$Declare "ptrbuf" on a separate line.(®¨·¹ûÿÿÿÿ
+Osquid:S1197"8Move the array designator from the variable to the type.(õÿÌÿ
+Msquid:UnusedPrivateMethodš"'Remove this unused private "nm" method.(½”ÝÐ
+U
+squid:S106Ð"9Replace this use of System.out or System.err by a logger.(‘¼êŽøÿÿÿÿ
+hsquid:S00116"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àßïŒ
+Qsquid:UnusedPrivateMethodj"'Remove this unused private "nd" method.(£ÖÚ‡úÿÿÿÿ
+csquid:S001127"FDefine and throw a dedicated exception instead of using a generic one.(¯¢Ýÿÿÿÿÿ
+=squid:S1481@"&Remove this unused "s" local variable.(Â¬°
+<squid:S1659’"Declare "p" on a separate line.(æïˆºýÿÿÿÿ
+¢%squid:RedundantThrowsDeclarationCheck7"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¯¢Ýÿÿÿÿÿ
+Rsquid:UnusedPrivateMethodÏ"'Remove this unused private "tr" method.(Ô“ƒùüÿÿÿÿ
+7squid:S1659§"Declare "b" on a separate line.(Ž—ÔÀ
+™squid:S2681"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(„›¸8¨åõ—ô,
+Lsquid:S1854@"5Remove this useless assignment to local variable "s".(Â¬°

@@ -1,0 +1,34 @@
+
+U
+squid:S106¾"9Replace this use of System.out or System.err by a logger.(‘¼êøÿÿÿÿ
+csquid:S00112%"FDefine and throw a dedicated exception instead of using a generic one.(¯¢İÿÿÿÿÿ
+Hsquid:S00108")Either remove or fill this block of code.(Ôˆèº8ğÿñ²ë,
+Psquid:UnusedPrivateMethod"+Remove this unused private "modulo" method.(ğÿÆí
+Qsquid:UnusedPrivateMethodX"'Remove this unused private "nd" method.(£ÖÚ‡úÿÿÿÿ
+<squid:S1659€"Declare "p" on a separate line.(æïˆºıÿÿÿÿ
+esquid:S00101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ƒ­£Å
+\squid:UnusedPrivateMethodj"2Remove this unused private "nsTillNewLine" method.(–¼´‡úÿÿÿÿ
+Lsquid:UnusedPrivateMethod\"'Remove this unused private "nc" method.(è…è
+bsquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(ÅÑ­¹
+bsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(˜Ş§
+=squid:S1481."&Remove this unused "s" local variable.(Â¬°
+¢%squid:RedundantThrowsDeclarationCheck%"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¯¢İÿÿÿÿÿ
+Msquid:UnusedPrivateMethod§"'Remove this unused private "nl" method.(©œÍ
+gsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(­ÕÓ„ıÿÿÿÿ
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8®¢“³ë,
+Osquid:S1197"8Move the array designator from the variable to the type.(õÿÌÿ
+Lsquid:S1854."5Remove this useless assignment to local variable "s".(Â¬°
+…"squid:ClassVariableVisibilityCheck:"RMake lenbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ
+Msquid:UnusedPrivateMethodˆ"'Remove this unused private "nm" method.(½”İĞ
+Rsquid:UnusedPrivateMethod½"'Remove this unused private "tr" method.(Ô“ƒùüÿÿÿÿ
+Rsquid:UnusedPrivateMethodt"(Remove this unused private "nsF" method.(õ…˜Ïşÿÿÿÿ
+@squid:S1659:"$Declare "ptrbuf" on a separate line.(®¨·¹ûÿÿÿÿ
+Msquid:UnusedPrivateMethod"'Remove this unused private "na" method.(áóô•
+Osquid:S1197"8Move the array designator from the variable to the type.(öï•™
+gsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(ÃâÅ¹üÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck:"RMake ptrbuf a static final constant or non-public and provide accessors if needed.(®¨·¹ûÿÿÿÿ
+hsquid:S00116"PRename this field "INPUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àßïŒ
+7squid:S1659•"Declare "b" on a separate line.(—ÔÀ
+T
+squid:S106*"9Replace this use of System.out or System.err by a logger.(£Üıÿÿÿÿ

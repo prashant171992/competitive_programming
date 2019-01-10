@@ -1,0 +1,51 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><p>
+Li Chen has an array of positive integers. You are given its initial state in the int[] <b>arr</b>.
+</p>
+
+<p>
+Li Chen can modify the array by repeatedly performing the following operation: Choose a <i>contiguous</i> subarray, and replace all values in the subarray with their exact average.
+</p>
+
+<p>
+For example, if the current array is {1, 3, 2, 4}, some ways to perform the next operation look as follows:
+</p>
+
+<ul>
+<li>Li Chen can select the first three elements, obtaining the array {2, 2, 2, 4}.</li>
+<li>Li Chen can select the middle two elements, obtaining the array {1, 2.5, 2.5, 4}.</li>
+<li>Li Chen can select the entire array, obtaining the array {2.5, 2.5, 2.5, 2.5}.</li>
+<li>Li Chen can select the last element only, which does not change the array.</li>
+</ul>
+
+<p>
+Multiple operations may modify the same indices in the given array. For example, given the array {1, 4, 2} Li Chen may use one operation to change it to {1, 3, 3} and then another operation to change this array into {2, 2, 3}.
+</p>
+
+<p>
+Find the lexicographically smallest array Li Chen can obtain by performing a sequence of zero or more operations.
+Return a double[] with the elements of that array.
+(See Notes for a more precise definition.)
+</p></td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>SubarrayAverages</td></tr><tr><td>Method:</td><td>findBest</td></tr><tr><td>Parameters:</td><td>int[]</td></tr><tr><td>Returns:</td><td>double[]</td></tr><tr><td>Method signature:</td><td>double[] findBest(int[] arr)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>256</td></tr><tr><td>Stack limit (MB):</td><td>256</td></tr></table></td></tr><tr><td colspan="2"><h3>Notes</h3></td></tr><tr><td align="center" valign="top">-</td><td>Given two different arrays S and T with the same number of elements, the lexicographically smaller one is the one that has a smaller element at the first index at which they differ.</td></tr><tr><td align="center" valign="top">-</td><td>Your answer will be accepted if each element of your return value has an absolute or a relative error at most 1e-9.</td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>arr</b> will contain between 1 and 1,000 elements, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each element of <b>arr</b> will be between 1 and 10^6, inclusive.</td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1,2,3,4,5,6,7,8,9}</pre></td></tr></table></td></tr><tr><td><pre>Returns: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0 }</pre></td></tr><tr><td><table><tr><td colspan="2">Here, Li Chen should leave the array unchanged.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{7,6,5,4,3,2,1}</pre></td></tr></table></td></tr><tr><td><pre>Returns: {4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0 }</pre></td></tr><tr><td><table><tr><td colspan="2"><p>In this case, Li Chen should perform one operation on the entire array.</p>
+<p>Note that the subarray chosen for each operation has to be contiguous. For example, Li Chen is not allowed to change {7, 6, 5, 4, 3, 2, 1} into {3.25, 6, 5, 4, 3.25, 3.25, 3.25}.</p></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1,2,1,2}
+</pre></td></tr></table></td></tr><tr><td><pre>Returns: {1.0, 1.5, 1.5, 2.0 }</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1,10,1,1,1,1,10}
+</pre></td></tr></table></td></tr><tr><td><pre>Returns: {1.0, 2.8, 2.8, 2.8, 2.8, 2.8, 10.0 }</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">4)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{4,5,6,7,8,9,10,11,12,13,14,15,16,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
+</pre></td></tr></table></td></tr><tr><td><pre>Returns: 
+{4.0, 5.0, 5.846153846153846, 5.846153846153846, 5.846153846153846, 5.846153846153846,
+ 5.846153846153846, 5.846153846153846, 5.846153846153846, 5.846153846153846,
+ 5.846153846153846, 5.846153846153846, 5.846153846153846, 5.846153846153846,
+ 5.846153846153846, 5.846153846153846, 5.846153846153846, 5.846153846153846,
+ 5.846153846153846, 5.846153846153846, 5.846153846153846, 5.846153846153846,
+ 5.846153846153846, 5.846153846153846, 5.846153846153846, 5.846153846153846,
+ 5.846153846153846, 5.846153846153846 }</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">5)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{1000000}
+</pre></td></tr></table></td></tr><tr><td><pre>Returns: {1000000.0 }</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">6)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>{9450,7098,6048,1050,672,8232,5028,
+672,672,42,42,42,42,42,9450,6048,
+3402,3402,2688,9450,7098,6048,1050,
+672,8232,5028,672,672,9450,6048,3402}</pre></td></tr></table></td></tr><tr><td><pre>Returns: 
+{2795.1428571428573, 2795.1428571428573, 2795.1428571428573, 2795.1428571428573,
+ 2795.1428571428573, 2795.1428571428573, 2795.1428571428573, 2795.1428571428573,
+ 2795.1428571428573, 2795.1428571428573, 2795.1428571428573, 2795.1428571428573,
+ 2795.1428571428573, 2795.1428571428573, 4565.142857142857, 4565.142857142857,
+ 4565.142857142857, 4565.142857142857, 4565.142857142857, 4565.142857142857,
+ 4565.142857142857, 4565.142857142857, 4565.142857142857, 4565.142857142857,
+ 4565.142857142857, 4565.142857142857, 4565.142857142857, 4565.142857142857,
+ 6300.0, 6300.0, 6300.0 }</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>
