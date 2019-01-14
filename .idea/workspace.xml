@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="755d66cd-ce4f-498c-831a-7291c737d612" name="Default" comment="" />
+    <list default="true" id="755d66cd-ce4f-498c-831a-7291c737d612" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/GraphTricks/src/mst_kruskal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphTricks/src/union_find_rank_compression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +21,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GraphTricks/src/topological_sorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="585">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GraphTricks/src/union_find_rank_compression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
               <folding>
-                <element signature="class#Graph#0;class#topological_sorting#0" />
+                <element signature="class#Graph#0;class#union_find_rank_compression#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GraphTricks/src/mst_kruskal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+              <folding>
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GraphTricks/src/count_possible_paths_two_vertices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="720">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="e#847#848#0" expanded="true" />
                 <element signature="e#896#897#0" expanded="true" />
@@ -41,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GraphTricks/src/max_edge_DAG_add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="121" column="8" selection-start-line="121" selection-end-line="122" />
+            <state relative-caret-position="1590">
+              <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -54,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/GraphTricks/src/mother_vertex.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+              <caret line="74" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="class#Graph#0;class#mother_vertex#0" />
               </folding>
@@ -87,11 +113,12 @@
       <find>Queue</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MediumLeetCode/src/binary_tree_inorder_traversal.java" />
-        <option value="$PROJECT_DIR$/MediumLeetCode/src/product_of_array_except_self.java" />
         <option value="$PROJECT_DIR$/MediumLeetCode/src/top_k_frequent_elements.java" />
         <option value="$PROJECT_DIR$/MediumLeetCode/src/permutations.java" />
         <option value="$PROJECT_DIR$/MediumLeetCode/src/generate_parentheses.java" />
@@ -141,38 +168,29 @@
         <option value="$PROJECT_DIR$/GraphTricks/src/path_rectangle_circles.java" />
         <option value="$PROJECT_DIR$/GraphTricks/src/topological_sorting.java" />
         <option value="$PROJECT_DIR$/GraphTricks/src/max_edge_DAG_add.java" />
+        <option value="$PROJECT_DIR$/GraphTricks/src/union_find_rank_compression.java" />
+        <option value="$PROJECT_DIR$/GraphTricks/src/mst_kruskal.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="716" />
     <option name="height" value="821" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CodeJam_2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeJam_2017" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeJam_2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeJam_2017" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayTricks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeJam_2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeJam_2017" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayTricks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeJam_2017" type="b2602c69:ProjectViewProjectNode" />
@@ -189,12 +207,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547106766193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547449653275" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -224,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.max_edge_DAG_add">
+  <component name="RunManager" selected="Application.mst_kruskal">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -286,13 +305,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addition_chain_exponentiation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addition_chain_exponentiation" />
-      <module name="GraphTricks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="count_possible_paths_two_vertices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="count_possible_paths_two_vertices" />
       <module name="GraphTricks" />
@@ -307,8 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mother_vertex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mother_vertex" />
+    <configuration name="mst_kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mst_kruskal" />
       <module name="GraphTricks" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,6 +328,13 @@
     </configuration>
     <configuration name="topological_sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="topological_sorting" />
+      <module name="GraphTricks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="union_find_rank_compression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="union_find_rank_compression" />
       <module name="GraphTricks" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -430,19 +449,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.addition_chain_exponentiation" />
-      <item itemvalue="Application.mother_vertex" />
       <item itemvalue="Application.count_possible_paths_two_vertices" />
       <item itemvalue="Application.topological_sorting" />
       <item itemvalue="Application.max_edge_DAG_add" />
+      <item itemvalue="Application.union_find_rank_compression" />
+      <item itemvalue="Application.mst_kruskal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mst_kruskal" />
+        <item itemvalue="Application.union_find_rank_compression" />
         <item itemvalue="Application.max_edge_DAG_add" />
         <item itemvalue="Application.topological_sorting" />
         <item itemvalue="Application.count_possible_paths_two_vertices" />
-        <item itemvalue="Application.mother_vertex" />
-        <item itemvalue="Application.addition_chain_exponentiation" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +542,8 @@
       <workItem from="1546711510169" duration="607000" />
       <workItem from="1546712367071" duration="382000" />
       <workItem from="1546770003265" duration="7000" />
-      <workItem from="1546901063697" duration="13131000" />
+      <workItem from="1546901063697" duration="16510000" />
+      <workItem from="1547376248317" duration="4306000" />
     </task>
     <servers />
   </component>
@@ -560,13 +580,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389361000" />
+    <option name="totallyTimeSpent" value="397046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.2825465" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.28612304" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -574,21 +594,20 @@
       <window_info id="Nl-Palette" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50701404" side_tool="true" weight="0.25751072" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3686747" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3686747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46746987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.329602" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32771084" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -601,6 +620,7 @@
       <window_info anchor="right" id="Properties" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Palette" order="11" />
+      <window_info anchor="right" id="Maven" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -939,6 +959,12 @@
           <properties />
           <option name="timeStamp" value="253" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GraphTricks/src/mst_kruskal.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1001,20 +1027,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MediumLeetCode/src/maximum_binary_tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="28" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -1535,27 +1547,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/water_jug_problem_bfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/path_rectangle_circles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2416#2417#0" expanded="true" />
-            <element signature="e#2490#2491#0" expanded="true" />
-            <element signature="e#2551#2552#0" expanded="true" />
-            <element signature="e#5158#5159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphTricks/src/water_jug_problem_bfs.java" />
+    <entry file="file://$PROJECT_DIR$/GraphTricks/src/path_rectangle_circles.java" />
     <entry file="file://$PROJECT_DIR$/GraphTricks/src/node_level_tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1567,20 +1560,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/mother_vertex.java">
+    <entry file="file://$PROJECT_DIR$/GraphTricks/src/topological_sorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <element signature="class#Graph#0;class#mother_vertex#0" />
-          </folding>
+        <state relative-caret-position="585">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GraphTricks/src/count_possible_paths_two_vertices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="720">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="e#847#848#0" expanded="true" />
             <element signature="e#896#897#0" expanded="true" />
@@ -1590,20 +1580,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/topological_sorting.java">
+    <entry file="file://$PROJECT_DIR$/GraphTricks/src/max_edge_DAG_add.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="1590">
+          <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphTricks/src/mother_vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="74" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
           <folding>
-            <element signature="class#Graph#0;class#topological_sorting#0" />
+            <element signature="class#Graph#0;class#mother_vertex#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/max_edge_DAG_add.java">
+    <entry file="file://$PROJECT_DIR$/GraphTricks/src/union_find_rank_compression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="121" column="8" selection-start-line="121" selection-end-line="122" />
+        <state relative-caret-position="210">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="class#Graph#0;class#union_find_rank_compression#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphTricks/src/mst_kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+          <folding>
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
