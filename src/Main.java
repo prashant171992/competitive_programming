@@ -15,82 +15,69 @@ public class Main {
     int row[] = { -1, 0, 1, 0 };
     int column[] = { 0, 1, 0, -1 };
 
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int val) {
+            this.val = val;
+            this.left = null;
+            this.right = null;
+        }
+
+    }
+
+    public int findTargetSumWays(int[] nums, int S) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        TreeNode root = new TreeNode(0);
+        queue.add(root);
+        int counter = 0;
+        while(!queue.isEmpty()) {
+            int addCount = 0;
+            List<TreeNode> list = new ArrayList<>();
+            TreeNode node = queue.poll();
+            node.left = new TreeNode(nums[counter]);
+            node.right = new TreeNode((-1) * nums[counter]);
+            list.add(node.left);
+            list.add(node.right);
+            while(!queue.isEmpty()) {
+                TreeNode temp = queue.poll();
+                temp.left = new TreeNode(nums[counter]);
+                temp.right = new TreeNode((-1) * nums[counter]);
+                list.add(temp.left);
+                list.add(temp.right);
+            }
+
+            for (int i = 0; i < list.size(); ++i) {
+                if (list.get(i) != null)
+                    queue.add(list.get(i));
+            }
+        }
+        return calcSum(root, 0, S);
+    }
+
+    int calcSum(TreeNode treeNode, int sum, int target) {
+        if (treeNode == null) {
+            return 0;
+        }
+        else if (treeNode.left == null && treeNode.right == null) {
+            if (treeNode.val + sum == target) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+        else {
+            return calcSum(treeNode.left, sum + treeNode.val, target) +
+                    calcSum(treeNode.right, sum + treeNode.val, target);
+        }
+    }
 
 
     void solve() {
-        int n = ni();
-        int m = ni();
-        ArrayList<Long> arrayList = new ArrayList<>();
-        for (int i = 0; i < n; ++i) {
-            long temp = nl();
-            arrayList.add(temp);
-        }
 
-        Collections.sort(arrayList);
-
-
-        ArrayList<Point> arrayList1 = new ArrayList<>();
-
-        for (int i = 0; i < m; ++i) {
-            long x1 = nl();
-            long x2 = nl();
-            long y = nl();
-            arrayList1.add(new Point(x1, x2, y));
-        }
-        Collections.sort(arrayList1, (o1, o2) -> (int) (o1.x1 - o2.x1));
-
-        Point farLeft = arrayList1.get(0);
-        if (farLeft.x1 > 1) {
-            if (arrayList.get(0) == 1) {
-                out.println(1);
-            } else {
-                out.println(0);
-            }
-        }
-        long ans = n+m;
-        for (int i = 1; i < m; ++i) {
-            Point point = arrayList1.get(i);
-            if (point.x1 > farLeft.x1) {
-                int counter = 0;
-                long temp = point.x1-1;
-                for (int j = 0; j < n; ++j) {
-                    if (arrayList.get(j) <= temp) {
-                        counter++;
-                    }
-                }
-                ans = Math.min(ans, counter);
-                break;
-            }
-        }
-
-
-        Collections.sort(arrayList1, (o1, o2) -> (int) (o2.x2 - o1.x2));
-        Point farRight = arrayList1.get(0);
-        if (farRight.x2 < arrayList.get(0)) {
-            out.println(0);
-            return;
-        }
-        ans = 0;
-        for (int i = 1; i < m; ++i) {
-            Point point = arrayList1.get(i);
-            if (point.x2 < farRight.x2) {
-                long temp = point.x2+1;
-                for (int j = 0; j < n; ++j) {
-                    if (arrayList.get(j) < temp) {
-                        ans++;
-                    }
-                }
-
-                break;
-            } else {
-                ans++;
-            }
-        }
-
-
-
-
-
+        out.println(findTargetSumWays(new int[]{1,1,1,1,1}, 3));
     }
 
     void printList(ArrayList<Point> arrayList) {
