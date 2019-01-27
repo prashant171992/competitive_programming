@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755d66cd-ce4f-498c-831a-7291c737d612" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/fibonacci_number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/leaf_similar_trees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/lemonade_change.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/minimum_distance_between_bst_nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/n_ary_tree_level_order_traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/n_ary_tree_postorder_traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/n_ary_tree_preorder_traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/search_in_a_binary_search_tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/shortest_distance_to_a_character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/sort_array_by_parity_ii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/k_diff_pairs_in_an_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/reverse_bits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/reverse_integer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,28 +27,6 @@
               <folding>
                 <element signature="e#458#459#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/fibonacci_number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/sort_array_by_parity_ii.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,20 +85,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/n_ary_tree_level_order_traversal.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/battleships_in_a_board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="250">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicProgrammingPractice/src/maximum_length_of_pair_chain.java">
+        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/k_diff_pairs_in_an_array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="308">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+              <folding>
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_bits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +148,7 @@
       <find>out</find>
       <find>IntStre</find>
       <find>sort</find>
+      <find>reverse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,9 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GraphTricks/src/deadlock_detection.java" />
-        <option value="$PROJECT_DIR$/GraphTricks/src/cycle_undirected_graph.java" />
-        <option value="$PROJECT_DIR$/GraphTricks/src/find_bridge.java" />
         <option value="$PROJECT_DIR$/GraphTricks/src/bipartite_matching.java" />
         <option value="$PROJECT_DIR$/GraphTricks/src/string_transform_book.java" />
         <option value="$PROJECT_DIR$/GraphTricks/src/addition_chain_exponentiation.java" />
@@ -219,6 +205,9 @@
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/shortest_distance_to_a_character.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/leaf_similar_trees.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/n_ary_tree_level_order_traversal.java" />
+        <option value="$PROJECT_DIR$/LeetCode_20_min/src/reverse_integer.java" />
+        <option value="$PROJECT_DIR$/LeetCode_20_min/src/k_diff_pairs_in_an_array.java" />
+        <option value="$PROJECT_DIR$/LeetCode_20_min/src/reverse_bits.java" />
       </list>
     </option>
   </component>
@@ -262,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548542451563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548607820090" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -292,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sort_array_by_parity_ii">
+  <component name="RunManager" selected="Application.reverse_bits">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -361,8 +350,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jewels_and_stones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jewels_and_stones" />
+    <configuration name="k_diff_pairs_in_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="k_diff_pairs_in_an_array" />
+      <module name="LeetCode_20_min" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reverse_bits" />
+      <module name="LeetCode_20_min" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reverse_integer" />
       <module name="LeetCode_20_min" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -370,20 +373,6 @@
     </configuration>
     <configuration name="sort_array_by_parity_ii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort_array_by_parity_ii" />
-      <module name="LeetCode_20_min" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="squares_of_a_sorted_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="squares_of_a_sorted_array" />
-      <module name="LeetCode_20_min" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="to_lower_case" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="to_lower_case" />
       <module name="LeetCode_20_min" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -498,19 +487,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.jewels_and_stones" />
-      <item itemvalue="Application.squares_of_a_sorted_array" />
-      <item itemvalue="Application.to_lower_case" />
       <item itemvalue="Application.complex_number_multiplication" />
       <item itemvalue="Application.sort_array_by_parity_ii" />
+      <item itemvalue="Application.reverse_integer" />
+      <item itemvalue="Application.k_diff_pairs_in_an_array" />
+      <item itemvalue="Application.reverse_bits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverse_bits" />
+        <item itemvalue="Application.k_diff_pairs_in_an_array" />
+        <item itemvalue="Application.reverse_integer" />
         <item itemvalue="Application.sort_array_by_parity_ii" />
         <item itemvalue="Application.complex_number_multiplication" />
-        <item itemvalue="Application.to_lower_case" />
-        <item itemvalue="Application.squares_of_a_sorted_array" />
-        <item itemvalue="Application.jewels_and_stones" />
       </list>
     </recent_temporary>
   </component>
@@ -594,7 +583,7 @@
       <workItem from="1546901063697" duration="16510000" />
       <workItem from="1547376248317" duration="4306000" />
       <workItem from="1547455115717" duration="26029000" />
-      <workItem from="1548409897408" duration="15337000" />
+      <workItem from="1548409897408" duration="20351000" />
     </task>
     <servers />
   </component>
@@ -631,13 +620,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438412000" />
+    <option name="totallyTimeSpent" value="443426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.29470673" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.29470673" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -648,12 +636,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36802974" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.46716234" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46716234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.329602" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35068154" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35068154" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32713756" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32961586" />
@@ -1113,6 +1101,36 @@
           <properties />
           <option name="timeStamp" value="279" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_integer.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode_20_min/src/k_diff_pairs_in_an_array.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode_20_min/src/k_diff_pairs_in_an_array.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_bits.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_bits.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1123,71 +1141,53 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>this.adj[v1].remove()</expression-string>
+        <expression-string>Integer.MAX_VALUE</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.adj[v1].remove(v2)</expression-string>
+        <expression-string>(1 &lt;&lt; 30)*2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>result.get(x)</expression-string>
+        <expression-string>(1 &lt;&lt; 30)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>factorial[input.size()-i]</expression-string>
+        <expression-string>(1 &lt;&lt; 31)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>index * factorial[input.size()-i]</expression-string>
+        <expression-string>(1 &lt;&lt; 2)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list.get(next)-1</expression-string>
+        <expression-string>(-1)*(1 &lt;&lt; 31)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(1 &lt;&lt; nums.length) - 1</expression-string>
+        <expression-string>(-1)(1 &lt;&lt; 31)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(2 &lt;&lt; nums.length) - 1</expression-string>
+        <expression-string>result &gt;= (1 &lt;&lt; 31)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(1 &gt;&gt; nums.length) - 1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(2 &gt;&gt; nums.length) - 1</expression-string>
+        <expression-string>result &lt; (-1 * (1 &lt;&lt; 31))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/water_jug_problem_bfs.java" />
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/path_rectangle_circles.java" />
-    <entry file="file://$PROJECT_DIR$/GraphTricks/src/node_level_tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="e#884#893#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GraphTricks/src/topological_sorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -1497,13 +1497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/battleships_in_a_board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/spiral_matrix_iii.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1615,6 +1608,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/battleships_in_a_board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/n_ary_tree_level_order_traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/leaf_similar_trees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1626,10 +1644,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/n_ary_tree_level_order_traversal.java">
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/k_diff_pairs_in_an_array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="308">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_bits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
