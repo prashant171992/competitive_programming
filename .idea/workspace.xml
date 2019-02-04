@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755d66cd-ce4f-498c-831a-7291c737d612" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/buddy_strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/fair_candy_swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/largest_perimeter_triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/letter_case_permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/majority_element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/maximum_depth_of_n_ary_tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/minimum_moves_to_equal_array_elements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/monotonic_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/non_decreasing_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/reverse_only_letters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/same_tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/symmetric_tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/elimination_game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,72 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/fair_candy_swap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/buddy_strings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-              <folding>
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#517#528#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/symmetric_tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-              <folding>
-                <element signature="e#574#584#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_only_letters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/monotonic_array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/majority_element.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/same_tree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -103,16 +36,86 @@
         <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/minimum_moves_to_equal_array_elements.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/flood_fill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/elimination_game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+              <folding>
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/flood_fill.java">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding>
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/leaf_similar_trees.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+              <caret line="25" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -164,13 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/regions_cut_by_slashes.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/keys_and_rooms.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/find_bottom_left_tree_value.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/find_largest_value_in_each_tree_row.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/max_area_of_island.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/most.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/most_stones_removed_with_same_row_or_column.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/partition_equal_subset_sum.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/decode_string.java" />
@@ -215,6 +211,13 @@
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/majority_element.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/same_tree.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/minimum_moves_to_equal_array_elements.java" />
+        <option value="$PROJECT_DIR$/LeetCode_20_min/src/flood_fill.java" />
+        <option value="$PROJECT_DIR$/LeetCode_20_min/src/elimination_game.java" />
+        <option value="$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java" />
       </list>
     </option>
   </component>
@@ -240,12 +243,12 @@
             <path>
               <item name="CodeJam_2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeJam_2017" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode_20_min" type="462c0819:PsiDirectoryNode" />
+              <item name="DP_GfG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeJam_2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeJam_2017" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode_20_min" type="462c0819:PsiDirectoryNode" />
+              <item name="DP_GfG" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -258,7 +261,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548804428099" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549233105319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -288,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.buddy_strings">
+  <component name="RunManager" selected="Application.subset_sum_problem_dp_25">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -350,37 +353,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="buddy_strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buddy_strings" />
-      <module name="LeetCode_20_min" />
+    <configuration name="coin_change_dp_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coin_change_dp_7" />
+      <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="k_diff_pairs_in_an_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="k_diff_pairs_in_an_array" />
-      <module name="LeetCode_20_min" />
+    <configuration name="gold_mine_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gold_mine_problem" />
+      <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="letter_case_permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letter_case_permutation" />
-      <module name="LeetCode_20_min" />
+    <configuration name="subset_sum_problem_dp_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subset_sum_problem_dp_25" />
+      <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverse_bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reverse_bits" />
-      <module name="LeetCode_20_min" />
+    <configuration name="ugly_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ugly_numbers" />
+      <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverse_integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reverse_integer" />
-      <module name="LeetCode_20_min" />
+    <configuration name="unique_paths_iii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unique_paths_iii" />
+      <module name="DynamicProgrammingPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -494,19 +497,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.reverse_integer" />
-      <item itemvalue="Application.k_diff_pairs_in_an_array" />
-      <item itemvalue="Application.reverse_bits" />
-      <item itemvalue="Application.letter_case_permutation" />
-      <item itemvalue="Application.buddy_strings" />
+      <item itemvalue="Application.unique_paths_iii" />
+      <item itemvalue="Application.ugly_numbers" />
+      <item itemvalue="Application.gold_mine_problem" />
+      <item itemvalue="Application.coin_change_dp_7" />
+      <item itemvalue="Application.subset_sum_problem_dp_25" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.buddy_strings" />
-        <item itemvalue="Application.letter_case_permutation" />
-        <item itemvalue="Application.reverse_bits" />
-        <item itemvalue="Application.k_diff_pairs_in_an_array" />
-        <item itemvalue="Application.reverse_integer" />
+        <item itemvalue="Application.subset_sum_problem_dp_25" />
+        <item itemvalue="Application.coin_change_dp_7" />
+        <item itemvalue="Application.gold_mine_problem" />
+        <item itemvalue="Application.ugly_numbers" />
+        <item itemvalue="Application.unique_paths_iii" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +593,7 @@
       <workItem from="1546901063697" duration="16510000" />
       <workItem from="1547376248317" duration="4306000" />
       <workItem from="1547455115717" duration="26029000" />
-      <workItem from="1548409897408" duration="28519000" />
+      <workItem from="1548409897408" duration="36939000" />
     </task>
     <servers />
   </component>
@@ -627,12 +630,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451594000" />
+    <option name="totallyTimeSpent" value="460014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.29470673" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.29470673" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -642,8 +646,8 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36802974" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.46716234" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36802974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46716234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -651,7 +655,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.35068154" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32713756" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32961586" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.62081784" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Duplicate detector" order="14" weight="0.32961586" />
@@ -1150,6 +1154,48 @@
           <properties />
           <option name="timeStamp" value="288" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1159,6 +1205,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>x == dx &amp;&amp; y == dy &amp;&amp; empty == 0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dx</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Integer.MAX_VALUE</expression-string>
         <language-id>JAVA</language-id>
@@ -1194,109 +1250,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>result &gt;= (1 &lt;&lt; 31)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>result &lt; (-1 * (1 &lt;&lt; 31))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/flip_the_largest_number_to_the_tail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/score_after_flipping_matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="78" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/partition_labels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/find_bottom_left_tree_value.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="28" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2355#2356#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#2598#2599#0" expanded="true" />
-            <element signature="e#2625#2626#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#2733#2734#0" expanded="true" />
-            <element signature="e#5273#5274#0" expanded="true" />
-            <element signature="e#5340#5341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/keys_and_rooms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="42" />
-          <folding>
-            <element signature="e#2908#2909#0" expanded="true" />
-            <element signature="e#2953#2954#0" expanded="true" />
-            <element signature="e#3121#3122#0" expanded="true" />
-            <element signature="e#3151#3152#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-            <element signature="e#3225#3226#0" expanded="true" />
-            <element signature="e#3250#3251#0" expanded="true" />
-            <element signature="e#3286#3287#0" expanded="true" />
-            <element signature="e#5826#5827#0" expanded="true" />
-            <element signature="e#5893#5894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/find_largest_value_in_each_tree_row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <element signature="e#2740#2741#0" expanded="true" />
-            <element signature="e#2785#2786#0" expanded="true" />
-            <element signature="e#2953#2954#0" expanded="true" />
-            <element signature="e#2983#2984#0" expanded="true" />
-            <element signature="e#3010#3011#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3082#3083#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#5658#5659#0" expanded="true" />
-            <element signature="e#5725#5726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/jewels_and_stones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/unique_email_addresses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -1623,7 +1579,7 @@
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/reverse_only_letters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1637,28 +1593,93 @@
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/majority_element.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/leaf_similar_trees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <caret line="25" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/same_tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/minimum_moves_to_equal_array_elements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/flood_fill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/elimination_game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

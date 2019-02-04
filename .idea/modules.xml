@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/ArrayTricks/ArrayTricks.iml" filepath="$PROJECT_DIR$/ArrayTricks/ArrayTricks.iml" />
       <module fileurl="file://$PROJECT_DIR$/BitTricks/BitTricks.iml" filepath="$PROJECT_DIR$/BitTricks/BitTricks.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeJam_2017.iml" filepath="$PROJECT_DIR$/CodeJam_2017.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DP_GfG/DP_GfG.iml" filepath="$PROJECT_DIR$/DP_GfG/DP_GfG.iml" />
       <module fileurl="file://$PROJECT_DIR$/DynamicProgrammingPractice/DynamicProgrammingPractice.iml" filepath="$PROJECT_DIR$/DynamicProgrammingPractice/DynamicProgrammingPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/GraphTricks/GraphTricks.iml" filepath="$PROJECT_DIR$/GraphTricks/GraphTricks.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode_20_min/LeetCode_20_min.iml" filepath="$PROJECT_DIR$/LeetCode_20_min/LeetCode_20_min.iml" />
