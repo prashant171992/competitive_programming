@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755d66cd-ce4f-498c-831a-7291c737d612" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_20_min/src/elimination_game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/count_palindrome_sub_strings_string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/cutting_a_rod_dp_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/find_maximum_length_snake_sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/knapsack_problem_dp_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/longest_palindromic_subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP_GfG/src/perfect_sum_problem_print_subsets_given_sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,25 +23,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/same_tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/minimum_moves_to_equal_array_elements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/flood_fill.java">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
@@ -51,80 +32,97 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/elimination_game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-              <folding>
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="420">
+              <caret line="35" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/perfect_sum_problem_print_subsets_given_sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/cutting_a_rod_dp_13.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <folding>
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/find_maximum_length_snake_sequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/knapsack_problem_dp_10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding>
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/count_palindrome_sub_strings_string.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="251">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/leaf_similar_trees.java">
+        <entry file="file://$PROJECT_DIR$/DP_GfG/src/longest_palindromic_subsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="196">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,13 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/partition_equal_subset_sum.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/decode_string.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/flip_the_largest_number_to_the_tail.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/score_after_flipping_matrix.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/partition_labels.java" />
-        <option value="$PROJECT_DIR$/LeetCode_20_min/src/jewels_and_stones.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/unique_email_addresses.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/squares_of_a_sorted_array.java" />
         <option value="$PROJECT_DIR$/LeetCode_20_min/src/to_lower_case.java" />
@@ -218,13 +209,19 @@
         <option value="$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java" />
         <option value="$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java" />
         <option value="$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/perfect_sum_problem_print_subsets_given_sum.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/cutting_a_rod_dp_13.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/find_maximum_length_snake_sequence.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/knapsack_problem_dp_10.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/count_palindrome_sub_strings_string.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/longest_palindromic_subsequence.java" />
+        <option value="$PROJECT_DIR$/DP_GfG/src/longest_common_subsequence_dp_4.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="716" />
-    <option name="height" value="821" />
+    <option name="width" value="482" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,13 +251,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549233105319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551829010799" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -291,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.subset_sum_problem_dp_25">
+  <component name="RunManager" selected="Application.longest_palindromic_subsequence">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -353,37 +350,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="coin_change_dp_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coin_change_dp_7" />
+    <configuration name="cutting_a_rod_dp_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cutting_a_rod_dp_13" />
       <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gold_mine_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gold_mine_problem" />
+    <configuration name="find_maximum_length_snake_sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="find_maximum_length_snake_sequence" />
       <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subset_sum_problem_dp_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subset_sum_problem_dp_25" />
+    <configuration name="knapsack_problem_dp_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knapsack_problem_dp_10" />
       <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ugly_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ugly_numbers" />
+    <configuration name="longest_palindromic_subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="longest_palindromic_subsequence" />
       <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="unique_paths_iii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unique_paths_iii" />
-      <module name="DynamicProgrammingPractice" />
+    <configuration name="perfect_sum_problem_print_subsets_given_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="perfect_sum_problem_print_subsets_given_sum" />
+      <module name="DP_GfG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -497,19 +494,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.unique_paths_iii" />
-      <item itemvalue="Application.ugly_numbers" />
-      <item itemvalue="Application.gold_mine_problem" />
-      <item itemvalue="Application.coin_change_dp_7" />
-      <item itemvalue="Application.subset_sum_problem_dp_25" />
+      <item itemvalue="Application.perfect_sum_problem_print_subsets_given_sum" />
+      <item itemvalue="Application.cutting_a_rod_dp_13" />
+      <item itemvalue="Application.find_maximum_length_snake_sequence" />
+      <item itemvalue="Application.knapsack_problem_dp_10" />
+      <item itemvalue="Application.longest_palindromic_subsequence" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.subset_sum_problem_dp_25" />
-        <item itemvalue="Application.coin_change_dp_7" />
-        <item itemvalue="Application.gold_mine_problem" />
-        <item itemvalue="Application.ugly_numbers" />
-        <item itemvalue="Application.unique_paths_iii" />
+        <item itemvalue="Application.longest_palindromic_subsequence" />
+        <item itemvalue="Application.knapsack_problem_dp_10" />
+        <item itemvalue="Application.find_maximum_length_snake_sequence" />
+        <item itemvalue="Application.cutting_a_rod_dp_13" />
+        <item itemvalue="Application.perfect_sum_problem_print_subsets_given_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -593,7 +590,8 @@
       <workItem from="1546901063697" duration="16510000" />
       <workItem from="1547376248317" duration="4306000" />
       <workItem from="1547455115717" duration="26029000" />
-      <workItem from="1548409897408" duration="36939000" />
+      <workItem from="1548409897408" duration="50994000" />
+      <workItem from="1550143119751" duration="8358000" />
     </task>
     <servers />
   </component>
@@ -630,13 +628,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460014000" />
+    <option name="totallyTimeSpent" value="482427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.29470673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49298596" visible="true" weight="0.29899856" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -646,7 +644,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36802974" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36802974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46716234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1196,6 +1194,36 @@
           <properties />
           <option name="timeStamp" value="298" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/perfect_sum_problem_print_subsets_given_sum.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/perfect_sum_problem_print_subsets_given_sum.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/cutting_a_rod_dp_13.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/find_maximum_length_snake_sequence.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DP_GfG/src/find_maximum_length_snake_sequence.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1205,6 +1233,36 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>mat[x][y] - mat[x+1][y]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(mat[x][y] - mat[x+1][y] == Math.abs(1))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x+1 &lt; mat.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x+1 &lt; mat.length &amp;&amp; (mat[x][y] - mat[x+1][y] == Math.abs(1))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>best_price[j] + best_price[i-j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dp[index][sum]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>x == dx &amp;&amp; y == dy &amp;&amp; empty == 0</expression-string>
         <language-id>JAVA</language-id>
@@ -1220,101 +1278,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>(1 &lt;&lt; 30)*2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(1 &lt;&lt; 30)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(1 &lt;&lt; 31)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(1 &lt;&lt; 2)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(-1)*(1 &lt;&lt; 31)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(-1)(1 &lt;&lt; 31)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/unique_email_addresses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/squares_of_a_sorted_array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="2668" column="18" selection-start-line="2668" selection-start-column="18" selection-end-line="2668" selection-end-column="18" />
-          <folding>
-            <element signature="e#104675#104676#0" expanded="true" />
-            <element signature="e#104730#104731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/to_lower_case.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/unique_morse_code_words.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/big_countries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/n_repeated_element_in_size_2n_array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/sort_array_by_parity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1336,13 +1302,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/spiral_matrix_iii.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/spiral_matrix_iii.java" />
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/complex_number_multiplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1379,13 +1339,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/k_closest_point_to_origin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/k_closest_point_to_origin.java" />
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/fibonacci_number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1515,13 +1469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/buddy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/buddy.java" />
     <entry file="file://$PROJECT_DIR$/LeetCode_20_min/src/letter_case_permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1634,52 +1582,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicProgrammingPractice/src/unique_paths_iii.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="360">
           <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DP_GfG/src/ugly_numbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="270">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DP_GfG/src/gold_mine_problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="360">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DP_GfG/src/coin_change_dp_7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="420">
+          <caret line="35" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/perfect_sum_problem_print_subsets_given_sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/cutting_a_rod_dp_13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/find_maximum_length_snake_sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DP_GfG/src/subset_sum_problem_dp_25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/knapsack_problem_dp_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/longest_palindromic_subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/longest_common_subsequence_dp_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_GfG/src/count_palindrome_sub_strings_string.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
