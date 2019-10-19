@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
 
-public class cycle_undirected_graph {
+// 2019-04-29 
+
+public class C_1150 {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +18,115 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
+    void solve() {
+        int n = ni();
+        int in[] = new int[n];
 
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
+        int o = 0;
+        int t = 0;
+        for (int i = 0; i < n; ++i) {
+            in[i] = ni();
+            if (in[i] == 1) o++;
+            else t++;
+        }
+
+
+        int prime[] = findPrimeNumbers(2*(n+1));
+
+        int sum = 1;
+
+        int counter = 0;
+
+        int fA[] = new int[n];
+        int sA[] = new int[n];
+
+        for (int i = 0; i < o; ++i) {
+            fA[i] = 1;
+        }
+
+        for (int i = o; i < o+t; ++i) {
+            fA[i] = 2;
+        }
+
+        if (o > 0) {
+            sA[0] = 1;
+            for (int i = 1; i <= t; ++i) {
+                sA[i] = 2;
+            }
+
+            for (int i = t+1; i < o+t; ++i) {
+                sA[i] = 1;
+            }
+        } else {
+            for (int i = 0; i < t; ++i ){
+                sA[i] = 2;
             }
         }
 
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
+
+        int pF = 0;
+        int sumF = 0;
+        int sumS = 0;
+        int pS = 0;
+        for (int i = 0; i < n; ++i) {
+            sumF+=fA[i];
+            if (isPrime(sumF)) {
+                pF++;
+            }
+            sumS+=sA[i];
+            if (isPrime(sumS)) {
+                pS++;
+            }
         }
 
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
-                }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
-                }
+        if (pF > pS) {
+            for (int i = 0; i < n; ++i) {
+                out.print(fA[i] + " ");
             }
-            return false;
-        }
-
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
-
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
+        } else {
+            for (int i = 0; i < n; ++i) {
+                out.print(sA[i] + " ");
             }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
-                    }
-                }
-            }
-            return false;
         }
     }
 
+    static boolean isPrime(int n)
+    {
+        // Corner cases
+        if (n <= 1)
+            return false;
+        if (n <= 3)
+            return true;
 
+        // This is checked so
+        // that we can skip
+        // middle five numbers
+        // in below loop
+        if (n % 2 == 0 ||
+                n % 3 == 0)
+            return false;
 
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
+        for (int i = 5;
+             i * i <= n; i = i + 6)
+            if (n % i == 0 ||
+                    n % (i + 2) == 0)
+                return false;
+
+        return true;
+    }
+
+    private int[] findPrimeNumbers(int N) {
+        int ans[] = new int[4000000];
+        int counter = 0;
+        for (int i = 2; i <= N; i++)
+        {
+            if (isPrime(i)) {
+                ans[counter] = i;
+                counter++;
+            }
+
+        }
+        return ans;
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +154,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new C_1150().run();
     }
 
     private byte[] inbuf = new byte[1024];

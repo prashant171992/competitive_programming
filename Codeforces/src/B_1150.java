@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
 
-public class cycle_undirected_graph {
+// 2019-04-29 
+
+public class B_1150 {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +18,35 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
+    void solve() {
+        int n = ni();
 
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
+        char in[][] = new char[n][n];
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                in[i][j] = nc();
             }
         }
 
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
-        }
-
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
-                }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
-
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
-            }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (in[i][j] == '.') {
+                    if (i+2 < n && j-1 >= 0 && j+1 < n && in[i+1][j] != '#' && in[i+2][j] != '#' && in[i+1][j-1] != '#' && in[i+1][j+1] != '#') {
+                        in[i][j] = '#';
+                        in[i+1][j] = '#';
+                        in[i+2][j] = '#';
+                        in[i+1][j-1] = '#';
+                        in[i+1][j+1] = '#';
+                    }
+                    else {
+                        out.println("NO");
+                        return;
                     }
                 }
             }
-            return false;
         }
-    }
-
-
-
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
+        out.println("YES");
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +74,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new B_1150().run();
     }
 
     private byte[] inbuf = new byte[1024];

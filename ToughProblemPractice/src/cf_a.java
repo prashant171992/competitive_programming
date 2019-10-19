@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
 
-public class cycle_undirected_graph {
+// 2019-04-06 
+
+public class cf_a {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +18,66 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
+    void solve() {
+        int n = ni();
+        int input[] = new int[n];
 
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
-            }
-        }
+        int h = ni();
 
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
-        }
+        int count = 0;
+        int ans = 0;
+        int highest = 0;
+        int firstH = 0;
+        int secondH = 0;
+        for (int i = 0; i < n; ++i) input[i] = ni();
 
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 0; i < n; ++i) {
+            list.add(input[i]);
+            int last = 0;
+            int j;
+            Collections.sort(list);
+            for (j = list.size()-1; j>=0 ; j-=2) {
+                if (!(last+ list.get(j) <= h)) {
+                    out.println(count);
+                    return;
                 }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
-                }
+                last += list.get(j);
             }
-            return false;
+            count++;
         }
-
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
-
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
-            }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
-                    }
-                }
-            }
-            return false;
-        }
+        out.println(count);
     }
 
+    class FridgeRow {
+        private int bigger;
+        private int smaller;
 
+        public FridgeRow() {
 
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
+        }
+
+        public FridgeRow(int bigger, int smaller) {
+            this.bigger = bigger;
+            this.smaller = smaller;
+        }
+
+        public int getBigger() {
+            return bigger;
+        }
+
+        public void setBigger(int bigger) {
+            this.bigger = bigger;
+        }
+
+        public int getSmaller() {
+            return smaller;
+        }
+
+        public void setSmaller(int smaller) {
+            this.smaller = smaller;
+        }
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +105,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new cf_a().run();
     }
 
     private byte[] inbuf = new byte[1024];

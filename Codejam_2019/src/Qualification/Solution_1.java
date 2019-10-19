@@ -1,13 +1,16 @@
+package Qualification;
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
 
-public class cycle_undirected_graph {
+// 2019-04-06 
+
+public class Solution_1 {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +21,56 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
+    void solve() {
 
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
-            }
+        int t = ni();
+        String strings [] = new String[t];
+        for (int i = 0; i < t; ++i) {
+            strings[i] = ns();
+            //solveMethod(s, i);
         }
-
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
-        }
-
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
-                }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
-
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
-            }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
-                    }
-                }
-            }
-            return false;
+        for (int i = 0; i < t; ++i) {
+            solveMethod(strings[i], i);
         }
     }
 
+    /*
+
+8
+4
+940
+4444
+1234
+23211
+212
+0121
+34211
 
 
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
+
+
+     */
+
+    void solveMethod(String num, int testCase) {
+
+        String first = "";
+        for (char c : num.toCharArray()) {
+            if (c == '4') first+="3";
+            else first+=c;
+        }
+        String second = "";
+        for (int i = num.length()-1; i>= 0; --i) {
+            int f = Character.getNumericValue((num.charAt(i)));
+            int s = Character.getNumericValue(first.charAt(i));
+            second+= String.valueOf(f-s);
+        }
+        StringBuilder builder = new StringBuilder(second);
+        second = builder.reverse().toString();
+        int start = 0;
+        while (start < second.length() && second.charAt(start) == '0') {
+            start++;
+        }
+        out.println("Case #" + testCase + ": " + first + " " + (second.substring(start).length() == 0 ? "0" : second.substring(start)));
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +98,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new Solution_1().run();
     }
 
     private byte[] inbuf = new byte[1024];

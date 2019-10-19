@@ -3,11 +3,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
 
-public class cycle_undirected_graph {
+// 2019-05-04 
+
+public class B_1156 {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +18,74 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
+    void solve() {
+        int n = ni();
+        for (int i = 0; i < n; ++i) {
+            String s = ns();
+            char[] charArray = s.toCharArray();
+            Arrays.sort(charArray);
+            s = new String(charArray);
 
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
+            String even = "";
+            String odd = "";
+
+            int [] freq = new int[26];
+            String t = "";
+            for (int j = 0; j < s.length(); ++j) {
+                if (freq[s.charAt(j)-'a'] == 0) t+= s.charAt(j);
+                freq[s.charAt(j)-'a']++;
             }
-        }
 
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
-        }
-
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
-                }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
+            for (int j = 0; j < t.length(); ++j) {
+                if (j%2 == 0) {
+                    even += t.charAt(j);
+                } else {
+                    odd += t.charAt(j);
                 }
             }
-            return false;
-        }
-
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
-
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
+            String result1 = even+odd;
+            String result2 = odd+even;
+            boolean re1 = true;
+            boolean re2 = true;
+            for (int j = 1; j < result1.length(); ++j) {
+                if (Math.abs(result1.charAt(j) - result1.charAt(j-1)) == 1) {
+                    re1 = false;
+                    break;
+                }
             }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
+            if (!re1) {
+                for (int j = 1; j < result2.length(); ++j) {
+                    if (Math.abs(result2.charAt(j) - result2.charAt(j-1)) == 1) {
+                        re2 = false;
+                        break;
                     }
                 }
+                if (!re2) {
+                    out.println("No answer");
+                } else {
+                    for (int j = 0; j < result2.length(); ++j) {
+                        for (int k = 0; k < freq[result2.charAt(j)-'a']; ++k) {
+                            out.print(result2.charAt(j));
+                        }
+                    }
+                    out.println();
+                }
+            } else {
+                for (int j = 0; j < result1.length(); ++j) {
+                    for (int k = 0; k < freq[result1.charAt(j)-'a']; ++k) {
+                        out.print(result1.charAt(j));
+                    }
+                }
+                out.println();
             }
-            return false;
+//            int [] freqCount = new int[s.length()];
+//            for (Character character : s.toCharArray()) {
+//                freqCount[character-'a']++;
+//            }
+//            for (int j = 0; j < s.length(); ++j) {
+//
+//            }
         }
-    }
-
-
-
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +113,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new B_1156().run();
     }
 
     private byte[] inbuf = new byte[1024];

@@ -1,13 +1,16 @@
+package Round1A;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
+import java.util.stream.Collectors;
 
-public class cycle_undirected_graph {
+// 2019-04-13 
+
+public class Solution {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +21,61 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
+    void solve() {
+        int t = ni();
 
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
+        for (int i = 0; i < t; ++i) {
+            int num = ni();
+            List<String> strings = new ArrayList<>();
+            int maxLength = 0;
+            for (int j = 0; j < num; ++j) {
+                String s = ns();
+                strings.add(s);
+                maxLength = Math.max(maxLength, s.length());
             }
-        }
 
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
-        }
 
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
-                }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
-
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
-            }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
-                    }
-                }
-            }
-            return false;
+            out.println("Case #" + (i+1) + ": " + compute(strings, maxLength));
         }
     }
 
+    private int compute(List<String> strings, int len) {
+        int ans = 0;
+        int last = 1;
+        List<Integer> checkList = new ArrayList<>();
+        for (int i = 0; i < len; ++i) {
+            Map<String, List<Integer>> map = new HashMap<>();
+            for (int j = 0; j < strings.size(); ++j) {
+                String s = strings.get(j);
+                if (i<= s.length() && !checkList.contains(j)){
+                    String temp = s.substring(i);
+                    List<Integer> t = map.get(temp);
+                    if (t != null) {
+                        t.add(j);
+                        map.put(temp, t);
+                    } else {
+                        t = new ArrayList<>();
+                        t.add(j);
+                        map.put(temp, t);
+                    }
+                }
 
+            }
 
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
+            int maxVal = 0;
+            List<Integer> ttt = new ArrayList<>();
+            for (Map.Entry<String, List<Integer>> entry : map.entrySet()) {
+                if (maxVal < entry.getValue().size()) {
+                    ttt = entry.getValue();
+                    maxVal = entry.getValue().size();
+                }
+            }
+            if (maxVal != 1) {
+                ans+=2;
+                checkList.addAll(ttt);
+            }
+        }
+        return ans;
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +103,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new Solution().run();
     }
 
     private byte[] inbuf = new byte[1024];

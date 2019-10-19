@@ -1,13 +1,15 @@
+package Round1C;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
 
-public class cycle_undirected_graph {
+// 2019-05-04 
+
+public class Solution {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +20,125 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
-
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
+    void solve() {
+        int t = ni();
+        for (int i = 0; i < t; ++i) {
+            int sc = ni();
+            String[] strings = new String[sc];
+            int maxL = 0;
+            for (int j = 0; j < sc; ++j) {
+                strings[j] = ns();
+                maxL = Math.max(maxL, strings[j].length());
             }
-        }
 
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
-        }
+           char chA [] = new char[]{'P', 'R', 'S'};
+            Map<Character, Character> map = new HashMap<>();
+            map.put('R', 'P');
+            map.put('S', 'R');
+            map.put('P', 'S');
 
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
-                }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
-                }
-            }
-            return false;
-        }
+            StringBuilder ans = new StringBuilder("");
+            boolean[] sO = new boolean[sc];
+            char lll[] = new char[sc];
+            boolean ansCC = false;
 
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
+            for (int j = 0; j < 500; ++j) {
+                int []flag = new int[3];
+                for (int l = 0; l < 3; ++l) {
+                    for (int k = 0; k < sc; ++k) {
 
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
-            }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
+                        if (sO[k]) {
+                            flag[l]+=2;
+                            continue;
+                        }
+
+                        char test;
+                        if (j >= strings[k].length()) {
+                            int temp = j % strings[k].length();
+                            test = strings[k].charAt(temp);
+                        } else {
+                            test = strings[k].charAt(j);
+                        }
+                        if (chA[l] == test) {
+                            flag[l]++;
+                        } else if (chA[l] == map.get(test)) {
+                            flag[l]+=2;
+                        } else {
+                            flag[l] -= 10000;
+                        }
                     }
+
+                }
+
+                if (flag[0] < 0 && flag[1] < 0 && flag[2] < 0) {
+                    break;
+                } else {
+                    if (flag[0] > 0 && flag[0] > flag[1] && flag[0] > flag[2]) {
+                        ans.append(chA[0]);
+
+                        for (int k = 0; k < sc; ++k) {
+                            char test;
+                            if (j >= strings[k].length()) {
+                                int temp = j % strings[k].length();
+                                test = strings[k].charAt(temp);
+                            } else {
+                                test = strings[k].charAt(j);
+                            }
+                            if (chA[0] == map.get(test)) {
+                                sO[k] = true;
+                            }
+                        }
+
+
+
+
+                    } else if (flag[1] > 0 && flag[1] > flag[0] && flag[1] > flag[2]) {
+                        ans.append(chA[1]);
+
+                        for (int k = 0; k < sc; ++k) {
+                            char test;
+                            if (j >= strings[k].length()) {
+                                int temp = j % strings[k].length();
+                                test = strings[k].charAt(temp);
+                            } else {
+                                test = strings[k].charAt(j);
+                            }
+                            if (chA[1] == map.get(test)) {
+                                sO[k] = true;
+                            }
+                        }
+
+                    } else if (flag[2] > 0 && flag[2] > flag[0] && flag[2] > flag[1]) {
+                        ans.append(chA[2]);
+
+                        for (int k = 0; k < sc; ++k) {
+                            char test;
+                            if (j >= strings[k].length()) {
+                                int temp = j % strings[k].length();
+                                test = strings[k].charAt(temp);
+                            } else {
+                                test = strings[k].charAt(j);
+                            }
+                            if (chA[2] == map.get(test)) {
+                                sO[k] = true;
+                            }
+                        }
+
+
+                    }
+                    Arrays.sort(flag);
+                    if (flag[2] == 2 * sc) {printF(i, ans.toString());ansCC = true; break;}
                 }
             }
-            return false;
+            if (!ansCC)
+            printF(i, "IMPOSSIBLE");
         }
     }
 
 
 
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
+    private void printF(int t, String s) {
+        out.println("Case #" + (t+1) + ": " + s);
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +166,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new Solution().run();
     }
 
     private byte[] inbuf = new byte[1024];

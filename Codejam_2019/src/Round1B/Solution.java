@@ -1,13 +1,13 @@
+package Round1B;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
+import java.util.*;
 
-public class cycle_undirected_graph {
+public class Solution {
     InputStream is;
     BufferedReader bufferedReader;
     PrintWriter out;
@@ -18,64 +18,144 @@ public class cycle_undirected_graph {
     int column[] = {0, 1, 0, -1};
 
 
-    class Graph {
-        private int vertices; // No. of vertices in the graph
-        private LinkedList<Integer> adj[]; // @Adjacency list of vertices
+    void solve() {
+        int t = ni();
 
-        Graph(int num) {
-            vertices = num;
-            adj = new LinkedList[num];
-            for (int i = 0; i < vertices; ++i) {
-                adj[i] = new LinkedList();
-            }
-        }
+        for (int j = 0; j < t; ++j) {
 
-        void addEdge (int v1, int v2) {
-            adj[v1].add(v2);
-            adj[v2].add(v1);
-        }
 
-        private boolean cycleUtil(boolean visited[], int parent, int vertex) {
-            visited[vertex] = true;
-            for (int i = 0; i < adj[vertex].size(); ++i) {
-                int adjacentVertex = adj[vertex].get(i);
-                if (!visited[adjacentVertex]) {
-                    return cycleUtil(visited, vertex, adjacentVertex);
+
+
+            int points = ni();
+            int maxL = ni();
+
+            int x[] = new int[points];
+            int y[] = new int[points];
+            char d[] = new char[points];
+            int nx[] = new int[points];
+            int ny[] = new int[points];
+
+            for (int i = 0; i < points; ++i) {
+                x[i] = ni();
+                y[i] = ni();
+                d[i] = nc();
+                if (d[i] == 'N') {
+                    nx[i] = x[i];
+                    ny[i] = y[i] + 1;
                 }
-                if (visited[adjacentVertex] && parent != adjacentVertex) {
-                    return true;
+                if (d[i] == 'E') {
+                    nx[i] = x[i] + 1;
+                    ny[i] = y[i];
+                }
+                if (d[i] == 'W') {
+                    nx[i] = x[i] - 1;
+                    ny[i] = y[i];
+                }
+                if (d[i] == 'S') {
+                    nx[i] = x[i];
+                    ny[i] = y[i] - 1;
                 }
             }
-            return false;
-        }
 
-        private boolean isCyclic() {
-            boolean visited[] = new boolean[vertices];
+            int maxCover = 0;
+            int ansx = 0;
+            int ansy = 0;
 
-            for (int i = 0; i < visited.length; i++) {
-                visited[i] = false;
-            }
-            for (int i = 0; i < vertices; ++i) {
-                if (!visited[i]) {
-                    if (cycleUtil(visited, -1, i)) {
-                        return true;
+            int tAx = ansx, tAy = ansy;
+
+            for (int i = 0; i < points; ++i) {
+
+                int ttt = ccalc(maxL, points, nx, ny, d, nx[i], ny[i]);
+                if (ttt == maxCover) {
+                    if (tAx > nx[i] || tAy > ny[i]) {
+                        tAx = nx[i];
+                        tAy = ny[i];
                     }
+                    maxCover = ttt;
+                } else if (ttt > maxCover) {
+                    tAx = nx[i];
+                    tAy = ny[i];
+                    maxCover = ttt;
                 }
+
+//                ttt = ccalc(maxL, points, nx, ny, d, nx[i], ansy);
+//
+//                if (ttt == maxCover) {
+//                    if (tAx > nx[i] || tAy > ansy) {
+//                        tAx = nx[i];
+//                        tAy = ansy;
+//                    }
+//                    maxCover = ttt;
+//                } else if (ttt > maxCover) {
+//                    tAx = nx[i];
+//                    tAy = ansy;
+//                    maxCover = ttt;
+//                }
+//
+//                ttt = ccalc(maxL, points, nx, ny, d, ansx, ny[i]);
+//
+//                if (ttt == maxCover) {
+//                    if (tAx > ansx || tAy > ny[i]) {
+//                        tAx = ansx;
+//                        tAy = ny[i];
+//                    }
+//                    maxCover = ttt;
+//                } else if (ttt > maxCover) {
+//                    tAx = ansx;
+//                    tAy = ny[i];
+//                    maxCover = ttt;
+//                }
+
+                ansx = tAx;
+                ansy = tAy;
+
             }
-            return false;
+
+            int fc = maxCover;
+            int lx = ansx;
+            int ly = ansy;
+
+            while (fc == maxCover) {
+                //fc = 0;
+                fc = ccalc(maxL, points, nx, ny, d, ansx, ansy);
+                if (ccalc(maxL, points, nx, ny, d, ansx-1, ansy) == fc) {
+                    ansx--;
+                }
+                if (ccalc(maxL, points, nx, ny, d, ansx, ansy-1) == fc) {
+                    ansy--;
+                }
+
+                fc = ccalc(maxL, points, nx, ny, d, ansx, ansy);
+
+                if (ansx == lx && ansy == ly) {
+                    break;
+                }
+                lx = ansx;
+                ly = ansy;
+            }
+
+            out.println("Case #"+ (j+1) +": " + lx + " " + ly);
         }
+
     }
 
+    private int ccalc(int maxL,int points, int nx[], int ny[], char d[], int p, int q) {
+        int cc = 0;
+        if (p >= 0 && p <= maxL && q >= 0 && q <= maxL) {
+            for (int k = 0; k < points; ++k) {
+                if (nx[k] >= 0 && nx[k] <= maxL && ny[k] >= 0 && ny[k] <= maxL) {
+                    if (nx[k] == p && ny[k] == q) {
+                        cc++;
+                    } else if (nx[k] == p && ny[k] < q && (d[k] == 'E' || d[k] == 'W')) {
+                        cc++;
+                    } else if (nx[k] < p && ny[k] == q && (d[k] == 'S' || d[k] == 'N')) {
+                        cc++;
+                    }
+                }
 
-
-    void solve() {
-        Graph graph = new Graph(6);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 5);
-        out.println(graph.isCyclic());
+            }
+        }
+        return cc;
     }
 
     private BigInteger modulo(BigInteger a, BigInteger b, BigInteger c) {
@@ -103,7 +183,7 @@ public class cycle_undirected_graph {
     }
 
     public static void main(String[] args) throws Exception {
-        new cycle_undirected_graph().run();
+        new Round1B.Solution().run();
     }
 
     private byte[] inbuf = new byte[1024];
