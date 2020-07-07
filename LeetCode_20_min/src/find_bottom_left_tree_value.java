@@ -21,7 +21,7 @@ public class find_bottom_left_tree_value {
     void solve() {
     }
 
-    public class TreeNode {
+    public static class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
